@@ -11,7 +11,7 @@
         <script type="text/javascript" src="assets/js/Registration1.js"></script>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <link rel="stylesheet" href="assets/css/Registration1.css">
-        <script type="text/javascript" src="assets/js/registrationform.js"></script>
+        <script type="text/javascript" src="js/eye.js"></script>
     </head>
     <body class="bg-primary">
         <div class="container">
@@ -48,7 +48,14 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="password" class="small mt-1">Password<font color="red"> *</font></label>
-                                <input type="password" id="password" name="password" placeholder="Enter Password" class="form-control py-2"  required>
+                                <div class="input-group">
+                                    <input type="password" id="password" name="password" placeholder="Enter Password" class="form-control py-2" required>
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="far fa-eye-slash" id="eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
