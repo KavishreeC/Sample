@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <head>
+        <title>Registration form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script type="text/javascript" src="assets/js/Registration1.js"></script>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <link rel="stylesheet" href="assets/css/Registration1.css">
+        <script type="text/javascript" src="assets/js/registrationform.js"></script>
+    </head>
+    <body class="bg-primary">
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header">
+                    <h3 class="font-weight-light text-center my-4 ">Registration Form</h3>
+                </div>
+                <div class="card-body">
+                    <form  method="post" >
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="firstname" class="small">First Name<font color="red"> *</font></label>
+                            <input type="text" id="firstname" name="fname" placeholder="Enter First Name" class="form-control py-2" >
+                           
+                        </div>
+                        </div>
+                        <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="lastname" class="small">Last Name<font color="red"> *</font></label>
+                            <input type="text" id="lastname" name="lname" placeholder="Enter Last Name" class="form-control py-2" >
+                          
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="small mt-1">Email<font color="red"> *</font></label>
+                        <input type="email" id="email" name="email" placeholder="Enter Email" class="form-control py-2" required>
+                       
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="password" class="small mt-1">Password<font color="red"> *</font></label>
+                                <input type="password" id="password" name="password" placeholder="Enter Password" class="form-control py-2"  required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="cpassword" class="small mt-1">Confirm Password<font color="red"> *</font></label>
+                                <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password" class="form-control py-2"  required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3 mb-0">
+                        <button type="button" class="btn btn-primary btn-block" id="btn" onclick="myFunction()" >Create Account</button> 
+                    </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <div class="small">
+                    <a href="Login1.html">Have an account? Go to login</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
